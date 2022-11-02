@@ -1,0 +1,85 @@
+// var myname="Simran";
+// var yourname=prompt("What is your name?");
+// alert("Hi "+yourname+" Welcome to "+myname+"'s "+"Course");
+// var k=1;
+// var k1=2;
+// alert("Value of k is "+k+" Value of k1 is "+k1);
+// var temp=0;
+// temp=k;
+// k=k1;
+// k1=temp;
+// alert("Swaped Value of k is "+k+" Value of k1 is "+k1);
+// console.log(k);
+// var chad=prompt("What is your Name");
+// alert("Hello "+chad.slice(0,1).toUpperCase()+chad.slice(1,chad.length));
+// alert("Age Converter in Process");
+// var dogage=prompt("Enter dog age in Numbers");
+// alert("Equivalent Human age "+(((dogage-2)*4)+21));
+// function fun(height,weight){
+//     return weight/(height*height);       
+// }
+// var height=prompt("Enter you height in m");
+// var weight=prompt("Enter your Weight in kg");
+// var ans=fun(height,weight);
+// console.log("your BMI is"+ans);
+
+// var name1=prompt("Enter prsn1 name");
+// var name2=prompt("Enter prsn2 name");
+// var calc=Math.floor(Math.random()*100);
+// if(calc>=50){
+//     console.log("True love "+calc);
+// }else console.log("Not so True love "+calc);
+
+//DIFF BTWN "==" AND "===";
+// var num=1;
+// var str="1";
+// if(num===str)console.log("Yes");
+// else console.log("No");
+
+// if(num==str)console.log("Yes");
+// else console.log("No");
+
+
+//ARRAYS IN JS
+
+// var guest=["Varsha","Sanjiv","Friends","Rithwik"];
+// //Prints whole ARRAYS
+// console.log(guest);
+// if(guest.includes("Sanjiv")){
+//     console.log("You are Welcome!");
+// }else console.log("Sorry, Maybe next Time");
+
+// if(guest.includes("LOL")){
+//     console.log("You are Welcome!");
+// }else console.log("Sorry, Maybe next Time");
+
+
+//PRINT fizz if divisible by 3 buzz if divisible by 5 and fizzbuzz if divisible by 3 and 5 both
+
+// var op=[];
+// var count=0;
+// function addi(){
+//     count++;
+//      if(count%3==0&&count%5==0)op.push("FizzBuzz");
+//     else if(count%3==0)op.push("fizz");
+//     else if(count%5==0)op.push("Buzz");
+//     else op.push(count);
+//     console.log(op);
+    
+// }
+
+//CHALLENGE WHO IS GOING TO PAY?
+
+
+// var party=["Simran","Mom","Rithwik","Sanjiv"];
+// var len=party.length;
+// console.log(Math.floor(Math.random()*len));
+
+// console.log("Today "+party[Math.floor(Math.random()*len)]+" is going to pay for the dinner");
+
+
+
+
+
+
+
